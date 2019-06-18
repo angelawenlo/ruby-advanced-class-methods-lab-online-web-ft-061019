@@ -41,6 +41,9 @@ class Song
   end
 
   def self.new_from_filename
+    song = self.new
+    song.name
+    binding.pry
 
   end
 end
