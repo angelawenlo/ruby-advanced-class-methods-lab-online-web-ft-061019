@@ -41,7 +41,7 @@ class Song
     @@all.sort_by{|s| s.name}
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(name)
     song = self.new
     song.name
     binding.pry
